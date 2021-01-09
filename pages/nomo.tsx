@@ -30,7 +30,7 @@ export default function Home() {
         </p>
         <img
           className="image"
-          src="/images/dashboard.png"
+          src={require("../public/images/dashboard.png")}
           alt="Picture of the author"
         />
       </div>
