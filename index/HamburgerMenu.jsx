@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { merge, parent } from "glamor";
-import { Button, Colors } from "../../common/style";
+import { Button, Colors } from "../common/style";
 
 const styles = {
   button: merge(Button.noStyle, {

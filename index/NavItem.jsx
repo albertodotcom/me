@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { style, merge, parent, select } from "glamor";
-import { Button, Colors, MediaQueries } from "../../common/style";
+import { Button, Colors, MediaQueries } from "../common/style";
 
 const styles = {
   navItem: (parentStartAnimation, hideRoot, parentStopAnimation) =>

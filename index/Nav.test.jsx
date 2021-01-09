@@ -3,8 +3,8 @@ import { shallow, mount } from "enzyme";
 import Nav from "./Nav";
 import NavItem from "./NavItem";
 import HamburgerMenu from "./HamburgerMenu";
-import Button from "../../common/components/Button";
-import DomDelayedUpdate from "../../common/components/DomDelayedUpdate";
+import Button from "../common/components/Button";
+import DomDelayedUpdate from "../common/components/DomDelayedUpdate";
 
 const defaultProps = {
   navItems: [

@@ -1,11 +1,11 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { style, merge } from "glamor";
-import { List, Colors } from "../../common/style";
+import { List, Colors } from "../common/style";
 import NavItem from "./NavItem";
 import HamburgerMenu from "./HamburgerMenu";
-import Button from "../../common/components/Button";
-import DomDelayedUpdate from "../../common/components/DomDelayedUpdate";
+import Button from "../common/components/Button";
+import DomDelayedUpdate from "../common/components/DomDelayedUpdate";
 
 const prevButtonStyle = style({
   position: "fixed",

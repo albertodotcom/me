@@ -5,7 +5,7 @@ import Title from "./Title";
 import Nav from "./Nav";
 import Section from "./Section";
 import { navItems } from "./SectionContents";
-import DomDelayedUpdate from "../../common/components/DomDelayedUpdate";
+import DomDelayedUpdate from "../common/components/DomDelayedUpdate";
 
 it("renders a title", () => {
   const wrapper = shallow(<App />);

@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { merge, $, parent } from "glamor";
 import ReactMarkdown from "react-markdown";
-import { Colors, MediaQueries } from "../../common/style";
+import { Colors, MediaQueries } from "../common/style";
 
 const styles = {
   section: (parentClass) =>

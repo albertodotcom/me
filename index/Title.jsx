@@ -1,7 +1,7 @@
 import React from "react";
 import { style, merge } from "glamor";
-import Link from "../../common/components/Link";
-import { List, MediaQueries } from "../../common/style";
+import Link from "../common/components/Link";
+import { List, MediaQueries } from "../common/style";
 
 const styles = {
   header: style({
