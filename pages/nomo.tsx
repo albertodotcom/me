@@ -85,6 +85,7 @@ export default function Home() {
           font-family: "Open Sans";
           max-width: 1024px;
           margin: 0 auto;
+          padding: 0 10px;
         }
         a,
         a:hover,
