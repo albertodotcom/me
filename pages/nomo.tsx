@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
 
 export default function Home() {
   return (
@@ -29,12 +28,10 @@ export default function Home() {
           Save money and the planet by reducing waste, borrow before you buy and
           lend to give things new life.
         </p>
-        <Image
+        <img
           className="image"
-          src="/images/dashboard.png"
+          src={require("../public/images/dashboard.png")}
           alt="Picture of the author"
-          width={500}
-          height={500}
         />
       </div>
       <div>
