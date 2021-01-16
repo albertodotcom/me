@@ -28,11 +28,13 @@ export default function Home() {
           Save money and the planet by reducing waste, borrow before you buy and
           lend to give things new life.
         </p>
-        <img
-          className="image"
-          src={require("../public/images/dashboard.png")}
-          alt="Picture of the author"
-        />
+        <div className="image-container">
+          <img
+            className="image"
+            src={require("../public/images/dashboard.png")}
+            alt="Picture of the author"
+          />
+        </div>
       </div>
       <div>
         <h3 id="#support">Support</h3>
@@ -53,11 +55,11 @@ export default function Home() {
       <style jsx>{`
         .page {
           display: grid;
-          grid-template-columns: repeat(2, 1fr);
           grid-template-areas:
-            "title title"
-            "subtitle subtitle"
-            "description image";
+            "title"
+            "subtitle"
+            "image"
+            "description";
         }
         .title {
           grid-area: title;
@@ -72,8 +74,11 @@ export default function Home() {
         .description {
           grid-area: description;
         }
-        .image {
+        .image-container {
           grid-area: image;
+        }
+        .image {
+          max-width: 100%;
         }
       `}</style>
 
@@ -83,7 +88,7 @@ export default function Home() {
           background-color: #04226f;
           color: #ffffff;
           font-family: "Open Sans";
-          max-width: 1024px;
+          max-width: 600px;
           margin: 0 auto;
           padding: 0 10px;
         }
